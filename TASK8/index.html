@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Selector</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Choose a Color</h1>
+  </header>
+
+  <main>
+    <!-- Dropdown list -->
+    <label for="colorSelect">Select a color:</label>
+    <select id="colorSelect">
+      <option value="yellow">Yellow</option>
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+    </select>
+
+    <!-- Image placeholder -->
+    <div class="image-container">
+      <img id="flowerImage" src="img/pictures/Rose-yellow.jpg" alt="Selected Flower">
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

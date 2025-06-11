@@ -1,5 +1,13 @@
 body {
-  font-family: Arial, sans-serif;
   text-align: center;
-  padding: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+  width: 350px;
+  transition: transform 0.3s ease;
+}
+
+img.enlarged {
+  transform: scale(1.36);
 }

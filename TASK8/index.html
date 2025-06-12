@@ -4,16 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Flower Selector</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="testi.css" />
 </head>
 <body>
-  <header>
-    <h1>Choose a Flower Color</h1>
-  </header>
+  <div class="card">
+    <h1>Roses</h1>
 
-  <main>
     <div class="dropdown-container">
-      <label for="colorSelect">Select color:</label>
+      <label for="colorSelect">Choose color:</label>
       <select id="colorSelect" onchange="changeImage()">
         <option value="Rose-yellow">Yellow</option>
         <option value="Rose-red">Red</option>
@@ -25,18 +23,8 @@
       <img id="roseImage" src="img/pictures/Rose-yellow.jpg" alt="Selected Flower" />
     </div>
 
-    <div class="image-container">
-      <img id="roseImage" src="img/pictures/Rose-red.jpg" alt="Selected Flower" />
-    </div>
-
-    <div class="image-container">
-      <img id="roseImage" src="img/pictures/Rose-pink.jpg" alt="Selected Flower" />
-    </div>
-
-    <section class="notifications">
-      <ul id="notificationList"></ul>
-    </section>
-  </main>
+    <ul id="notificationList"></ul>
+  </div>
 
   <script src="script.js"></script>
 </body>

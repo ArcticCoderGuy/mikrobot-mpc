@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const image = document.getElementById("roseImage");
   const list = document.getElementById("notificationList");
 
-  // Hover -> suurennus
   image.addEventListener("mouseover", () => {
     image.classList.add("enlarged");
   });
@@ -18,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
     list.innerHTML = "";
   });
 
-  // Klikki -> ilmoituslistaan uusi rivi
   image.addEventListener("click", () => {
     const color = document.getElementById("colorSelect").value;
     const li = document.createElement("li");

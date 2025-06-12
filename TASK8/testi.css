@@ -4,10 +4,19 @@ body {
 }
 
 img {
-  width: 350px;
+  width: 150px;
   transition: transform 0.3s ease;
 }
 
 img.enlarged {
   transform: scale(1.36);
 }
+
+img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+

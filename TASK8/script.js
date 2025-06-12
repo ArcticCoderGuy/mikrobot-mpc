@@ -1,7 +1,7 @@
 function changeImage() {
   const color = document.getElementById("colorSelect").value;
   const image = document.getElementById("roseImage");
-  image.src = `img/${color}.jpg`;
+  image.src = `img/pictures/${color}.jpg`;
 }
 
 document.addEventListener("DOMContentLoaded", () => {

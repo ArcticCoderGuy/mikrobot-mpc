@@ -1,0 +1,5 @@
+kafka-python
+python-dotenv
+
+pip install kafka-python python-dotenv
+pip freeze > requirements.txt

@@ -1,0 +1,11 @@
+[
+    {
+        "timestamp": "2025-07-06T09:19:17.037817",
+        "symbol": "EURUSD",
+        "direction": "BUY",
+        "entry_price": 1.086,
+        "exit_price": 1.0901,
+        "result": "WIN",
+        "notes": "Testitreidi strategiatesterist\u00e4"
+    }
+]
